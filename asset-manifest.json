@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shaonOS/static/css/main.a1dbc943.css",
+    "main.js": "/shaonOS/static/js/main.a7b80a28.js",
+    "static/js/787.e64273a3.chunk.js": "/shaonOS/static/js/787.e64273a3.chunk.js",
+    "index.html": "/shaonOS/index.html",
+    "main.a1dbc943.css.map": "/shaonOS/static/css/main.a1dbc943.css.map",
+    "main.a7b80a28.js.map": "/shaonOS/static/js/main.a7b80a28.js.map",
+    "787.e64273a3.chunk.js.map": "/shaonOS/static/js/787.e64273a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1dbc943.css",
+    "static/js/main.a7b80a28.js"
+  ]
+}

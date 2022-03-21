@@ -1,0 +1,63 @@
+.postDetails {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(49%, 1fr));
+  grid-gap: 1.5rem;
+  background-color: black;
+  color: white;
+  /* padding: 3rem 0; */
+  box-sizing: border-box;
+  margin: 1rem;
+}
+.postVideo {
+  width: 100%;
+  height: 100%;
+}
+.postContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+}
+.auther {
+  grid-column: 1 / span 1;
+}
+.contentBox {
+  display: grid;
+  /* justify-content: start; */
+}
+.playlistStyle {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px 0;
+  height: 250px;
+  overflow-y: scroll;
+  background-color: white;
+}
+.playListChip {
+  border: 1px solid red;
+  transition: 0.5s;
+}
+.playListChip:hover {
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid blueviolet;
+}
+
+.playListButton {
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid blueviolet;
+}
+.playListButton:hover {
+  color: white;
+}
+@media (max-width: 768px) {
+  .buttonBox {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-row: 1/2;
+  }
+}
+.btn1:hover {
+  background-color: red;
+}
